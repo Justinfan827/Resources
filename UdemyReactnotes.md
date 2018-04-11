@@ -1,15 +1,17 @@
-#Personal notes from learning React
+# Personal notes from learning React
 
-##Day 1(Lesson 1 - 16) (1 hour): Lets go! Learn React :)
+## Day 1(Lesson 1 - 16) (1 hour): Lets go! Learn React :)
 
-#General React notes: 
+# General React notes: 
 - React is a JS library
 - Components: snippets of code that produces HTML
-- Multiple Components: Nest them to make complex applications
+  - Multiple Components: Nest them to make complex applications
 
-Lesson 8 notes: 
-- ES6 modules: other files cant refer to variables in other files.
--   Even if React is installed in dependencies, still need to import React i.e. import the module and get access in the file.
+#ES6 modules: Normally, files cant refer to variables in other files.
+- Importing React: Even if React is installed in dependencies, it still needs to be imported i.e. import the module React to get access in the file. 
+'''
+import React from 'react'
+'''
 - React / React DOM: React starting to diverge into two libraries
 -   React DOM library: functionality to render on the DOM.
 -   React library: functionality to create/ manage components.
