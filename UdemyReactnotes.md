@@ -1,6 +1,8 @@
-Day 1: Lets go! Learn React :)
+#Personal notes from learning React
 
-Lesson 6 notes: 
+##Day 1(Lesson 1 - 16) (1 hour): Lets go! Learn React :)
+
+#General React notes: 
 - React is a JS library
 - Components: snippets of code that produces HTML
 - Multiple Components: Nest them to make complex applications
@@ -30,7 +32,13 @@ Exploring modules
 - explicitly declare connections between JS files. 
 - export default <Component>
 - When importing javascript files (that we write), need file reference to file we're trying to import. Not necessary for libraries, since
-  there can't be conflicting names for libraries. 
-Classes
-
+  there can't be conflicting names for libraries. I.e. NEED TO USE RELATIVE PATH. 
+ 
+Classes (Creating components with ES6 classes)
+- extends React.Component
+- Define method on class called render(). Every class based component needs this render() method. 
 State 
+- Use Class Components
+
+Event handler: 
+- 
