@@ -1,6 +1,10 @@
 # Personal notes from learning React
 
 ## Day 1(Lesson 1 - 16) (1 hour): Lets go! Learn React :)
+## Troubleshoot: 
+- Email: ste.grider@gmail.com
+- Twitter: @sg_in_sf
+- Github: github.com/stephengrider
 
 ## General React notes: 
 - React is a JS library
