@@ -91,3 +91,30 @@ ReactDOM.render(<App />, document.querySelector('.container')); //need to make s
 // the DOM.
 
 ```
+
+## Day 2(Lesson 16 - ...) (1 hour)
+
+Event handler
+- function run when event occurs
+- pass event handler to element to handle the event
+- in JSX, wrap JS with curly braces
+- All browser events that get triggered by native elements, when handled by the event handler, it is called with an event 
+ object. Describes context / information on the event that occured. 
+ - Watch for 'Change' input. Change is a protected react defined property. Search up in react docs
+
+React State:
+- A plain javascript object that is used to record and react to user events. Each class based object we fine 
+has its own state object. Whenever the state is changed, the object and all its children re-render. 
+- Need to initialize state. 
+- All js classes have function 'constructor', which gets called upon initialization. 
+- update state with this.setState.
+
+Controlled field / form element:  
+- a form element i.e. input, whose value is set by the state
+- i.e. value = {this.state.term}. The value is set by the state! The value changes only 
+  when the state changes.
+- Saves the change made from the event.
+
+Downward dataflow: most parent object fetches data. 
+
+
