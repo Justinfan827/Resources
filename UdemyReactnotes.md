@@ -117,4 +117,28 @@ Controlled field / form element:
 
 Downward dataflow: most parent object fetches data. 
 
+## Day 3
 
+- ES6 syntax (syntactic sugar when key and value have the same name): this.setState({videos: videos}) --> just do this.setState({videos});
+
+props
+- passing props: 
+  - Child accessing state of parent. Pass the data through the JSX. Pass by defining property on JSX tag
+  - i.e. videos = {this.state.videos}, videos is the 'props object'
+  - Each time the app re renders, VideoList will get the new list of videos as well
+  - with functional component, the props object arrives as an argument to the function. 
+  - class components access by this.props
+  - ES6 syntax: const video = props.video is the same as having {video} as argument to functional component. Basically says take 
+  the property video, and make the reference to the property.
+ 
+  
+  
+When we render items of the same type, react assumes we are rendering a list.
+- logic is built to optimize rendering a list. 
+
+Creating video-detail:
+- ES6 syntax: adding thing to string: 
+  - `....../${thing_to_add}` : use backticks!
+  
+  Handling null props:
+  - 
