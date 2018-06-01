@@ -142,3 +142,33 @@ Creating video-detail:
   
   Handling null props:
   - 
+  
+Day 4: Lecture 29 onwards
+  
+Video Selection: 
+- Adding selected video to App state
+  
+Current flow of App: 
+- Initialization of app: search is performed, setting state of App Component (video and selected video) through the 
+  callback function provided. Setting state re renders the component. i.e VideoDetail and VideoList is re-rendered 
+  with the newly searched video.
+    
+Passing function as property of JSX (i.e. passing through props)
+- <VideoList 
+    onVideoSelect={selectedVideo => this.setState({selectedVideo})} //Function that sets the video. 
+    videos={this.state.videos} />
+
+Passing callbacks (functions) from parent to child components. 
+- can be confusing where it is called and see where it is coming from!
+- can be called by a child to go to the parent. 
+
+React wrap up:
+- Functional vs class components: functional for simple properties and static JSX. Super lightweight, super fast. 
+- State: this.state in constructor function to initialize state. When we change state, component instantly re-renders, 
+  along with all the children.
+- import: relative path for our own files, name of library for library 
+- callbacks: passing functions/callbacks to edit parent state. 
+
+Component level state: 
+- Each component have their own state. Localized changes. Not the same in redux. 
+  
